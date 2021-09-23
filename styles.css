@@ -1,0 +1,133 @@
+
+*{
+    font-family: 'Poppins', sans-serif;;
+}
+
+.navbar-items {
+    font-size: small;
+    color: #455A64;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.navbar-items:hover {
+    color: floralwhite;
+    background-color: #455A64;
+    border: floralwhite 1px solid;
+    border-radius: 5px;
+}
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+.carousel-btn{
+    font-weight: bold;
+    border: 2px solid #455A64;
+    color: floralwhite;
+
+}
+
+.carousel-btn:hover{
+    background-color: #1976D2;
+    color: floralwhite;
+}
+
+.contact-btn {
+    border: 1px solid #455A64;
+}
+.profile-links > a{
+    padding: 3px;
+}
+.carousel > .carousel-inner > .carousel-item > img {
+    /* width: 100%; */
+    max-height: 550px;
+}
+.carousel-caption {
+    color: #E3E3E3;
+}
+
+.carousel-caption h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: whitesmoke;
+    /* text-shadow: 3px 2px  #515354   ; */
+}
+
+.carousel-item {
+    background-color: black;
+}
+.carousel-item img {
+    opacity: 0.2;
+}
+
+.animate__fadeInDown {
+    --animate-duration: 2s;
+    --animation-delay: 1s;
+}
+
+.animate__slideInLeft {
+    --animate-duration: 1s;
+    --animation-delay: 3s;
+}
+
+.animate__slideInRight {
+    --animate-duration: 1s;
+    --animation-delay: 5s;
+}
+
+.animate__slideInUp {
+    --animate-duration: 2s;
+    --animation-delay: 7s;
+}
+
+.footer {
+    background-color:#16181A;
+    color: whitesmoke;
+}
+
+.footer-end {
+    background-color: rgb(12, 9, 9);
+}
+
+.socialApp-logos{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.card{
+    background-color: #FAFAFA;
+}
+
+.card > img {
+    width: 100px;
+    margin: auto;
+}
+
+.card:hover{
+    animation: pulse;
+    animation-duration: 2s;
+}
+
+.banner {
+    background-color:  #1976D2;
+    font-family: 'Lato';
+}
+.skills-sec{
+    background-color: #E1F5FE;
+}
+
+#skillsChart {
+    background-color:#FAFAFA;
+    margin-top: 15px;
+}
+
+.carousel-banner {
+    width: auto;
+}
+
+.description-text {
+    color: #3f3f3f;
+    font-weight: bold;
+    
+}
